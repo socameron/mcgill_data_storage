@@ -26,9 +26,9 @@ I often use `.Rproject` files to ensure reproducibility and accessibility among 
 
 In my Rprojects folder, I often have 3 folders:
 
-(1) Rscripts   - for storing R scripts
-(2) Rdata      - for storing raw data
-(3) Routput    - for storing analysis outputs
+1. Rscripts   - for storing R script
+2.  Rdata      - for storing raw data
+3.   Routput    - for storing analysis outputs
 
 Within each folder, I often name files with the naming convention of '01_filename' so I can keep track of the file purpose and number. This makes archiving analyses during publication MUCH easier.
 
