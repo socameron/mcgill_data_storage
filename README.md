@@ -62,3 +62,7 @@ Once you've logged into, you'll notice 3 folders: `scratch`, `nearline`, and `pr
 Once you've noticed how annoying it is to use `mkdir` and `sbatch` constantly, you might be interested in learning how to setup *Snakemake* on your cluster. Snakemake allows you to parallelize jobs without ever having to create directories. It's human readable and improves reproducibility in research. For more information, see my [Snakemake tutorial here](https://github.com/socameron/snakemake-tutorial).
 
 
+### Notes:
+
+... Eventually I'll post scripts here for example .sh executables and R scripts (for data cleaning) ...
+
