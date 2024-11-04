@@ -14,11 +14,9 @@ I use McGill's OneDrive to store my data because it's FREE. McGill provides 25GB
 
 
 
-## Data storage: Using Borealis for publication data
+## Data storage: Using Borealis for publication data and scripts
 
-[Borealis](https://borealisdata.ca/) provides data storage services and is the preferred host rather than for-profit hosts such as Dryad. It is also used widely by other Canadian Universities and the physical data storage boxes are located in Canada at the University of Toronto, which be less sketchy than private companies that house data servers in off-shore countries. Ahem Norway. 
-
-
+[Borealis](https://borealisdata.ca/) provides data storage services and is the preferred host rather than for-profit hosts such as Dryad. It is also used widely by other Canadian Universities and the physical data storage boxes are located in Canada at the University of Toronto, which be less sketchy than private companies that house data servers in off-shore countries. Ahem Norway. I've seen people also post their scripts there, so is no longer a need to post scripts on Zenodo. I think Borealis is also free for Canadian researchers.
 
 ## Data anlyses: Using R
 
