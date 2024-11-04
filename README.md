@@ -16,7 +16,7 @@ I use McGill's OneDrive to store my data because it's FREE. McGill provides 25GB
 
 ## Data storage: Using Borealis for publication data
 
-(Borealis)[https://borealisdata.ca/] provides data storage services and is the preferred host rather than for-profit hosts such as Dryad. It is also used widely by other Canadian Universities and the physical data storage boxes are located in Canada at the University of Toronto, which be less sketchy than private companies that house data servers in off-shore countries. Ahem Norway. 
+[Borealis](https://borealisdata.ca/) provides data storage services and is the preferred host rather than for-profit hosts such as Dryad. It is also used widely by other Canadian Universities and the physical data storage boxes are located in Canada at the University of Toronto, which be less sketchy than private companies that house data servers in off-shore countries. Ahem Norway. 
 
 
 
@@ -40,7 +40,7 @@ For each R Script, I will have the following as my header:
 ## Authors: Cameron So
 ```
 
-For each line of code, I will also provide annotations. It is *extremely* important that you annotate your code. Not really for your collaborators, but moreso for yourself when you return 2 months after fieldwork and you're super confused about what you did. Never forget to annotate!!!! For more information, you can check out Anna's best practices file (here)[https://12c7dc14-9b05-8320-8644-794d1c8f6407.filesusr.com/ugd/9e5dfc_93c3b3c3579a4a28a282fd382bafed98.pdf]
+For each line of code, I will also provide annotations. It is *extremely* important that you annotate your code. Not really for your collaborators, but moreso for yourself when you return 2 months after fieldwork and you're super confused about what you did. Never forget to annotate!!!! For more information, you can check out Anna's best practices file [here](https://12c7dc14-9b05-8320-8644-794d1c8f6407.filesusr.com/ugd/9e5dfc_93c3b3c3579a4a28a282fd382bafed98.pdf).
 
 
 
@@ -61,6 +61,6 @@ To login into a cluster, use your terminal or powershell client (depends on Mac 
 
 Once you've logged into, you'll notice 3 folders: `scratch`, `nearline`, and `projects`. The `scratch` folder is where you'll typically run all of your analyses. This means you will need to enter that folder (with `cd scratch`) and run `sbatch` there. This folder terminates files not in use for 2+ months. Hence, you should not use it for long-term storage. The `projects` folder is used for longterm storage and can be accessed by other members in your lab group. Note that the storage capacity for `scratch` and `projects` respectively is 20TB and 1TB. However, the group manager (i.e Anna Hargreaves) can request additional storage in the `projects` folder given appropriate reasoning.
 
-Once you've noticed how annoying it is to use `mkdir` and `sbatch` constantly, you might be interested in learning how to setup *Snakemake* on your cluster. Snakemake allows you to parallelize jobs without ever having to create directories. It's human readable and improves reproducibility in research. For more information, see my (Snakemake tutorial here)[https://github.com/socameron/snakemake-tutorial].
+Once you've noticed how annoying it is to use `mkdir` and `sbatch` constantly, you might be interested in learning how to setup *Snakemake* on your cluster. Snakemake allows you to parallelize jobs without ever having to create directories. It's human readable and improves reproducibility in research. For more information, see my [Snakemake tutorial here](https://github.com/socameron/snakemake-tutorial).
 
 
