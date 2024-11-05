@@ -20,15 +20,33 @@ I use McGill's OneDrive to store my data because it's FREE. McGill provides 25GB
 
 ## Data anlyses: Using R
 
-I often use `.Rproject` files to ensure reproducibility and accessibility among collaborators and compute network respectively. Rprojects allow you to maintain the software versions of R packages, and immediately creates the file location as the working directory. This means you *do not need to use `setwd`*. I often hate having to set working directory, especially when I have to use Macs (yuck). 
+I often use `.Rproject` files to ensure accessibility among different compute networks. For instance, they might be useful when I'm working on a laptop at work and then running scripts on another machine remotely. This means you *do not need to use `setwd`*. 
 
 In my Rprojects folder, I often have 3 folders:
 
 1. Rscripts   - for storing R script
-2.  Rdata      - for storing raw data
-3.   Routput    - for storing analysis outputs
+2. Rdata      - for storing raw data
+3. Routput    - for storing analysis outputs
 
 Within each folder, I often name files with the naming convention of '01_filename' so I can keep track of the file purpose and number. This makes archiving analyses during publication MUCH easier.
+
+*If you'd like to maintain specific R versions and R package versions, then there are multiple ways around this*. Generally, you can use `renv` files which specific the R package versions required. These are stored in a `renv.lock` file. However, `renv` doesn't save the R version so I recommend documenting that piece of information within your scripts. R versions can then be swapped around in the 'Global Options' within RStudio. Here's how to use `renv` : 
+
+```
+# After creating an R Project :
+install.packages("renv")   # install 'renv' package
+library(renv)              # call 'renv' package
+renv::init()               # initialize the package in the current working directory
+
+install.packages("tidyverse") # install necessary packages now as in your normal script
+
+renv::snapshot()              # save all R package dependency versions to a `renv.lock` file
+renv::restore()               # when operating on a new computer, run to restore the environment with all versions required
+
+```
+
+
+*Alternatively, you can use Docker as a way to manage R versions AND R package versions*. I haven't used `Docker` before, but you can read more into it [here](https://colinfay.me/docker-r-reproducibility/).
 
 For each R Script, I will have the following as my header:
 
