@@ -4,13 +4,14 @@ This tutorial was created to share some data management tips with other Hargreav
 
 ## Data storage: Using GitHub for scripts
 
-I use GitHub to share code with collaborators. It makes it easier to edit scripts together, but also to visualize your code without having to download your scripts online. 
+I use GitHub to share code with collaborators. It makes it easier to edit scripts together, but also to visualize your code without having to download your scripts from online. Since we're already on GitHub, I recommend you take a look around to see how it works. I'm sure there's a tutorial somewhere.
+As an example, you could check out my GitHub page on [Sundial lupine population genetics stuff](https://github.com/socameron/lcwgs-lupine). 
 
 
 
 ## Data storage: Using OneDrive for data
 
-I use McGill's OneDrive to store my data because it's FREE. McGill provides 25GB (?) of free storage for all students, however this can be bumped to a maximum of 1TB if you provide appropriate reasoning (e.g research). Remember that your access to OneDrive will be removed once you graduate, so be sure to store your data elsewhere. If your lab group has a SharePoint server, then you can store 20TB of data. This data can also be accessed for all lab members. Currently, Dan and Anna have a SharePoint set-up to store large bioinformatic data plus student data respectively.
+I use McGill's OneDrive to store my data because it's FREE. McGill provides 25GB (?) of free storage for all students, however this can be bumped to a maximum of 1TB if you provide appropriate reasoning (e.g research). Remember that your access to OneDrive will be removed once you graduate, so be sure to store your data elsewhere. If your lab group has a SharePoint server (different from OneDrive!), then you can store up to 25TB of data. This data can also be accessed for all lab members. Currently, Dan and Anna have a SharePoint set-up to store large bioinformatic data plus student data respectively.
 
 
 
