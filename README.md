@@ -10,7 +10,7 @@ I use GitHub to share code with collaborators. It makes it easier to edit script
 
 ## Data storage: Using OneDrive for data
 
-I use McGill's OneDrive to store my data because it's FREE. McGill provides 25GB (?) of free storage for all students, however this can be bumped to a maximum of 1TB if you provide appropriate reasoning (e.g research). Remember that your access to OneDrive will be removed once you graduate, so be sure to store your data elsewhere. If your lab group has a SharePoint server, then you can store 20TB of data. This data can also be accessed for all lab members. Currently, Dan Schoen and Anna has a SharePoint set-up to store large bioinformatic data plus student data respectively.
+I use McGill's OneDrive to store my data because it's FREE. McGill provides 25GB (?) of free storage for all students, however this can be bumped to a maximum of 1TB if you provide appropriate reasoning (e.g research). Remember that your access to OneDrive will be removed once you graduate, so be sure to store your data elsewhere. If your lab group has a SharePoint server, then you can store 20TB of data. This data can also be accessed for all lab members. Currently, Dan and Anna have a SharePoint set-up to store large bioinformatic data plus student data respectively.
 
 
 
