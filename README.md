@@ -20,7 +20,7 @@ I use McGill's OneDrive to store my data because it's FREE. McGill provides 25GB
 
 ## Data anlyses: Using R
 
-I often use `.Rproject` files to ensure accessibility among different compute networks. For instance, they might be useful when I'm working on a laptop at work and then running scripts on another machine remotely. This means you *do not need to use `setwd`*. 
+I often use `.Rproject` files to ensure accessibility among different compute networks. For instance, they might be useful when working on a laptop in one location and then running scripts on another machine (e.g work vs home). This means you *do not need to use `setwd`*. 
 
 In my Rprojects folder, I often have 3 folders:
 
@@ -42,6 +42,9 @@ install.packages("tidyverse") # install necessary packages now as in your normal
 
 renv::snapshot()              # save all R package dependency versions to a `renv.lock` file
 renv::restore()               # when operating on a new computer, run to restore the environment with all versions required
+renv::dependencies()          # check which dependencies are used for this Rproject
+
+# Tips: To update packages within the renv environment, install the newer version and then run renv::snapshot() again to update renv.lock.
 
 ```
 
